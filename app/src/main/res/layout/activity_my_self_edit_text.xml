@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <com.wb.helloworld.myEditText.MyEditText
+        android:id="@+id/myselfET"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_stroke"
+        android:hint="用户名"
+        android:padding="5dp"
+        android:paddingRight="5dp"/>
+
+
+    <com.wb.helloworld.myEditText.MyEditText
+        android:id="@+id/myselfET2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_stroke"
+        android:hint="用户名2"
+        android:padding="5dp"
+        android:paddingRight="5dp"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/ET1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="用户名3"
+        android:background="@drawable/btn_stroke"/>
+    <!--<com.wb.helloworld.myEditText.UpEditText/>-->
+
+</LinearLayout>

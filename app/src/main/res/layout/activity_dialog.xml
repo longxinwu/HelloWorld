@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    >
+
+    <Button
+        android:id="@+id/btn_dg1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="style1"
+        android:textSize="20sp"
+        android:textColor="@color/colorOrigin"
+        android:background="@drawable/btn_stroke"/>
+
+    <Button
+        android:id="@+id/btn_dg2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_dg1"
+        android:layout_marginTop="5dp"
+        android:text="style2"
+        android:textColor="@color/colorOrigin"
+        android:textSize="20sp"
+        android:background="@drawable/btn_stroke"/>
+    <Button
+        android:id="@+id/btn_dg3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="style3"
+        android:textSize="20sp"
+        android:background="@drawable/btn_stroke"
+        android:textColor="@color/colorOrigin"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/btn_dg2"/>
+    <Button
+        android:id="@+id/btn_dg4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="style4"
+        android:textSize="20sp"
+        android:textColor="@color/colorOrigin"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/btn_dg3"
+        android:background="@drawable/btn_stroke"/>
+
+    <Button
+        android:id="@+id/btn_dg5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="style5"
+        android:textSize="20sp"
+        android:textColor="@color/colorOrigin"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/btn_dg4"
+        android:background="@drawable/btn_stroke"/>
+
+
+
+</RelativeLayout>
