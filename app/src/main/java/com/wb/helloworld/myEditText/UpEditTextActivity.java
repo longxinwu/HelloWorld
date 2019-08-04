@@ -3,8 +3,8 @@ package com.wb.helloworld.myEditText;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-
 import com.wb.helloworld.R;
+
 
 public class UpEditTextActivity extends AppCompatActivity {
 
@@ -15,4 +15,5 @@ public class UpEditTextActivity extends AppCompatActivity {
         setContentView(R.layout.activity_up_edit_text);
         upEditText = findViewById(R.id.upET1);
     }
+
 }

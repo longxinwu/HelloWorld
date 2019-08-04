@@ -5,6 +5,7 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.wb.helloworld.fragment.ConFragmentActivity;
 import com.wb.helloworld.gridView.GridViewActivity;
 import com.wb.helloworld.listView.ListViewActivity;
 import com.wb.helloworld.myEditText.UpEditTextActivity;
@@ -76,6 +77,9 @@ public class Onclick implements View.OnClickListener {
                 break;
             case R.id.btn_pop:
                 intent = new Intent(activity, PopUpActivity.class);
+                break;
+            case R.id.btn_fragment:
+                intent = new Intent(activity, ConFragmentActivity.class);
                 break;
             default:
                 break;

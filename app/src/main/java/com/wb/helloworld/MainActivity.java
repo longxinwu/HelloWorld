@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
     private Button btnProgress;
     private Button btnDialog2;
     private Button btnPop;
+    private Button btnFragment;
 
 
     @Override
@@ -49,6 +50,8 @@ public class MainActivity extends AppCompatActivity {
         btnProgress = findViewById(R.id.btn_progress);
         btnDialog2 = findViewById(R.id.btn_dialog2);
         btnPop = findViewById(R.id.btn_pop);
+        btnFragment = findViewById(R.id.btn_fragment);
+
         setListener();
     }
 
@@ -73,6 +76,7 @@ public class MainActivity extends AppCompatActivity {
         btnProgress.setOnClickListener(onclick);
         btnDialog2.setOnClickListener(onclick);
         btnPop.setOnClickListener(onclick);
+        btnFragment.setOnClickListener(onclick);
 
     }
 }
